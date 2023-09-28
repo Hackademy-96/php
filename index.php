@@ -31,7 +31,6 @@ $utenti = [
     ["nome" => "Marco", "cognome" => "Rossi", "genere" => "Maschio"],
     ["nome" => "Laura", "cognome" => "Bianchi", "genere" => "Femmina"],
     ["nome" => "Luigi", "cognome" => "Verdi", "genere" => "Maschio"],
-    // Aggiungi altri utenti qui
 ];
 
 
@@ -53,7 +52,7 @@ foreach ($utenti as $utente) {
 
 // ES 3
 for ($i=1; $i <= 100 ; $i++) { 
-    if ($i % 5 == 0 && $i % 3 == 0) {
+    if ($i % 5 == 0 && $i % 15 == 0) {
         echo "HACKADEMY96 \n";
     } else if ($i % 5 == 0){
         echo "JAVASCRIPT \n";
