@@ -41,11 +41,11 @@ foreach ($utenti as $utente) {
 
   
     if ($genere === "Maschio") {
-        echo "Buongiorno Sig. $nome $cognome<br>";
+        echo "Buongiorno Sig. $nome $cognome ";
     } elseif ($genere === "Femmina") {
-        echo "Buongiorno Sig.ra $nome $cognome<br>";
+        echo "Buongiorno Sig.ra $nome $cognome;
     } else {
-        echo "Buongiorno $nome $cognome<br>";
+        echo "Buongiorno $nome $cognome";
     }
 }
 
@@ -53,11 +53,11 @@ foreach ($utenti as $utente) {
 // ES 3
 for ($i=1; $i <= 100 ; $i++) { 
     if ($i % 5 == 0 && $i % 15 == 0) {
-        echo "HACKADEMY96 \n";
+        echo "Hackademy96 \n";
     } else if ($i % 5 == 0){
-        echo "JAVASCRIPT \n";
+        echo "Jacascript \n";
     } else if ($i % 3 == 0){
-        echo "PHP \n";
+        echo "Php \n";
     } else {
         echo $i . "\n";
     }
